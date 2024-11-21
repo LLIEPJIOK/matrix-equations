@@ -10,16 +10,25 @@ This program solves a system of linear equations using two methods:
    It decomposes the matrix into an orthogonal matrix (Q) and an upper triangular matrix (R) to solve the system via matrix factorization.
 
 The system is represented by the equation:  
-\[
+```math
 A \cdot x = b
-\]  
+```
 Where:  
-- The matrix **A** is defined as:  
-  \( a_{ii} = 5i, \quad a_{ij} = -(i + \sqrt{j}) \) for \( i \neq j \),  
-  with \( i, j = 1, N \), where \( N = 15 \).
+- The matrix **A** is defined as:
+  ```math
+  a_{ii} = 5i,
+  ```
+  ```math
+  a_{ij} = -(i + \sqrt{j}), \quad i \neq j,
+  ```
+  ```math
+  i, j = 1, N, \quad N = 15.
+  ```
   
-- The vector **b** is defined as:  
-  \( b_i = 3\sqrt{i} \) for \( i = 1, N \).
+- The vector **b** is defined as:
+  ```math
+  b_i = 3\sqrt{i}, \quad i = 1, N.
+  ```
 
 The matrix **A** and vector **b** are created dynamically based on these formulas.
 
@@ -38,12 +47,12 @@ The matrix **A** and vector **b** are created dynamically based on these formula
    ```  
 
 3. Run the program:  
-	3.1. Run Gauss method
+	- Run Gauss method
    ```bash  
    go run cmd/gauss/main.go  
    ```  
 
-	3.2. Run Householder method
+	- Run Householder method
    ```bash  
    go run cmd/householder/main.go  
    ```  
