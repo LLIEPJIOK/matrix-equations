@@ -3,8 +3,8 @@ package householder_test
 import (
 	"testing"
 
-	"github.com/LLIEPJIOK/matrix/internal/householder"
-	"github.com/LLIEPJIOK/matrix/internal/matrix"
+	"github.com/LLIEPJIOK/matrix-equations/internal/householder"
+	"github.com/LLIEPJIOK/matrix-equations/internal/matrix"
 )
 
 func BenchmarkQRSolve(b *testing.B) {

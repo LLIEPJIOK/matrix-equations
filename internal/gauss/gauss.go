@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/LLIEPJIOK/matrix/internal/matrix"
+	"github.com/LLIEPJIOK/matrix-equations/internal/matrix"
 )
 
 func getMaxID(matrix [][]float64, row, colFrom int) int {

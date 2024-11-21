@@ -3,8 +3,8 @@ package gauss_test
 import (
 	"testing"
 
-	"github.com/LLIEPJIOK/matrix/internal/gauss"
-	"github.com/LLIEPJIOK/matrix/internal/matrix"
+	"github.com/LLIEPJIOK/matrix-equations/internal/gauss"
+	"github.com/LLIEPJIOK/matrix-equations/internal/matrix"
 )
 
 func BenchmarkSolve(b *testing.B) {

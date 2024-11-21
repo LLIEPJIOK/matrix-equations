@@ -3,7 +3,7 @@ package householder
 import (
 	"fmt"
 
-	"github.com/LLIEPJIOK/matrix/internal/matrix"
+	"github.com/LLIEPJIOK/matrix-equations/internal/matrix"
 )
 
 func sgn(n float64) int {
@@ -91,7 +91,7 @@ func QRSolve(mtr [][]float64, rhs [][]float64) ([][]float64, [][]float64, []floa
 
 		// recalculating matrix A
 		partA := make([][]float64, n-i)
-		
+
 		for a := range n - i {
 			partA[a] = make([]float64, n-i)
 

@@ -5,8 +5,8 @@ import (
 	"log/slog"
 	"os"
 
-	"github.com/LLIEPJIOK/matrix/internal/householder"
-	"github.com/LLIEPJIOK/matrix/internal/matrix"
+	"github.com/LLIEPJIOK/matrix-equations/internal/householder"
+	"github.com/LLIEPJIOK/matrix-equations/internal/matrix"
 )
 
 func main() {
